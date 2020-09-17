@@ -64,7 +64,7 @@
                                     <element>CLASS</element>
                                     <limits>
                                         <limit>
-                                            <counter>BRANCH</counter>
+                                            <counter>COMPLEXITY</counter>
                                             <value>COVEREDRATIO</value>
                                             <minimum>1.0</minimum>
                                         </limit>
