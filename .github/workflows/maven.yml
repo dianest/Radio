@@ -20,5 +20,5 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-    - name: build and verify with Maven
+    - name: verify with Maven
       run: mvn -B verify --file pom.xml
