@@ -48,4 +48,24 @@ public class Radio {
             volume--;
         }
     }
+
+    public void setCurrentStationNumber(int currentStationNumber) {
+        if (currentStationNumber > stationsCount) {
+            return;
+        }
+        if (currentStationNumber < MIN_STATION_NUMBER) {
+            return;
+        }
+        this.currentStationNumber = currentStationNumber;
+    }
+
+    public void setVolume(int volume) {
+        if (volume > MAX_VOLUME) {
+            return;
+        }
+        if (volume < MIN_VOLUME) {
+            return;
+        }
+        this.volume = volume;
+    }
 }
